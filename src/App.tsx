@@ -1,6 +1,13 @@
 import React from "react";
-import HelloWorld from "components/HelloWorld";
+import RoutesTree from "./RoutesTree";
+import { BrowserRouter as Router } from "react-router-dom";
 
-const App: React.FC = () => <HelloWorld />;
+const App: React.FC = () => (
+    <div id="app">
+        <Router>
+            <RoutesTree />
+        </Router>
+    </div>
+);
 
 export default App;

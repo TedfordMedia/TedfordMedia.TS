@@ -1,0 +1,12 @@
+{
+  "links": [
+    {
+      "to": "/brain",
+      "label": "Brain"
+    },
+    {
+      "to": "/circle",
+      "label": "Circle"
+    }
+  ]
+}
